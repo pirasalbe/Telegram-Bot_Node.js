@@ -1,6 +1,10 @@
 # Telegram Bot
 
-Telegram Bot with TypeScript, Node.js, and Telegraf and deployment configuration for Heroku
+Telegram Bot with TypeScript, Node.js, and Telegraf and deployment configuration for Heroku.
+
+## Medium article
+
+[Build a Telegram Bot using TypeScript, Node.js, and Telegraf and deploy it on Heroku](https://pirasalbe.medium.com/)
 
 ## Build the project with TypeScript
 
