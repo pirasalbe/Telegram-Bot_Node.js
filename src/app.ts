@@ -44,10 +44,12 @@ bot.on('text', (ctx) => {
       ' Option!'
   );
 
-  telegram.sendMessage(
-    chatId,
-    'This message was sent without your interaction!'
-  );
+  if (chatId) {
+    telegram.sendMessage(
+      chatId,
+      'This message was sent without your interaction!'
+    );
+  }
 });
 
 bot.launch();
